@@ -33,7 +33,7 @@ main{
     width: 100%;
 }
 
-h2{
+h2.grid-container2-text{
     color: inherit;
     font-family: Circular,Helvetica,Arial,sans-serif;
     font-size: 30px;
@@ -42,6 +42,9 @@ h2{
 h2.main-buttom-text{
     text-align: center;
     margin-top: 120px;
+    color: inherit;
+    font-family: Circular,Helvetica,Arial,sans-serif;
+    font-size: 30px;
 }
 
 section.grid-container{
@@ -78,19 +81,34 @@ div.grid4{
     grid-area: D;
 }
 
-h3.gridmenu-text{
-    color: white;
+h3{
     padding-left: 20px;
 }
 
-h4.gridmenu-text{
+h3.gridmenu-text-blue{
+    color:#1e3264;
+}
+
+h3.gridmenu-text-white{
     color: white;
+}
+
+h4{
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
-    padding-top: 120px;
     float:left;
     width:49%;
+}
+
+h4.gridmenu-text-blue{
+    color:#1e3264; 
+    padding-top: 300px;
+}
+
+h4.gridmenu-text-white{
+    color: white;
+    padding-top: 120px;
 }
 
 p.gridmenu-text{
@@ -118,10 +136,17 @@ section.grid-container2{
     padding-right: 12%;
 }
 
-h5{
+h5.grid-container2-text1{
     color: inherit;
     font-family: Circular,Helvetica,Arial,sans-serif;
     font-weight: 100;
+}
+
+h5.grid-container2-text2{
+    color: #228B22; 
+    font-size: 16px; 
+    font-weight: 700;
+    font-family: Circular,Helvetica,Arial,sans-serif;
 }
 
 footer{
@@ -153,6 +178,10 @@ section.footer-grid2{
 }
 
 h1.footer-text{
+    color: aliceblue;
+    font-family: Circular,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    align-self: center;
     font-weight: 750;
 }
 
