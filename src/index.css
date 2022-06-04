@@ -1,4 +1,4 @@
-header{
+.header{
     background-color: black;
     width: 100%;
     height: 10%;
@@ -7,18 +7,18 @@ header{
     left: 0;
 }
 
-body{
+.body{
     background-color: #efefef;
 }
 
 
-section.flex-container {
+.flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-h1.header-text {
+.header-text {
     color: aliceblue;
     font-family: Circular,Helvetica,Arial,sans-serif;
     font-size: 15px;
@@ -26,28 +26,26 @@ h1.header-text {
     align-self: center;
 }
 
-main{
+.main{
     position: static;
     top: 10%;
     left: 0;
     width: 100%;
 }
 
-h2.grid-container2-text{
-    color: inherit;
+.grid-container2-text{
     font-family: Circular,Helvetica,Arial,sans-serif;
     font-size: 30px;
 }
 
-h2.main-buttom-text{
+.main-buttom-text{
     text-align: center;
     margin-top: 120px;
-    color: inherit;
     font-family: Circular,Helvetica,Arial,sans-serif;
     font-size: 30px;
 }
 
-section.grid-container{
+.grid-container{
     display: grid;
     padding: 10%;
     gap: 20px;
@@ -57,43 +55,43 @@ section.grid-container{
     "A A A A   B B B B   B B B B";
 }
 
-div.grid1{
+.grid1{
     background-image: url(../img/back-grid1.jpg);
     background-repeat: no-repeat;
     grid-area: A;
 }
 
-div.grid2{
+.grid2{
     background-image: url(../img/back-grid4.png);
     background-repeat: no-repeat;
     grid-area: B;
 }
 
-div.grid3{
+.grid3{
     background-image: url(../img/back-grid2.png);
     background-repeat: no-repeat;
     grid-area: C;
 }
 
-div.grid4{
+.grid4{
     background-image: url(../img/back-grid3.png);
     background-repeat: no-repeat;
     grid-area: D;
 }
 
-h3{
+.gridmenu-text-blue-h3{
+    color:#1e3264;
     padding-left: 20px;
 }
 
-h3.gridmenu-text-blue{
-    color:#1e3264;
-}
-
-h3.gridmenu-text-white{
+.gridmenu-text-white-h3{
     color: white;
+    padding-left: 20px;
 }
 
-h4{
+.gridmenu-text-blue-h4{
+    color:#1e3264; 
+    padding-top: 300px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
@@ -101,17 +99,17 @@ h4{
     width:49%;
 }
 
-h4.gridmenu-text-blue{
-    color:#1e3264; 
-    padding-top: 300px;
-}
-
-h4.gridmenu-text-white{
+.gridmenu-text-white-h4{
     color: white;
     padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    float:left;
+    width:49%;
 }
 
-p.gridmenu-text{
+.gridmenu-text{
     color:#1e3264;
     padding-left: 20px;
     padding-right: 20px;
@@ -120,7 +118,7 @@ p.gridmenu-text{
     padding-top: 400px;
 }
 
-p.gridmenu-text2{
+.gridmenu-text2{
     color: white;
     padding-left: 300px;
     font-size: 14px;
@@ -128,7 +126,7 @@ p.gridmenu-text2{
     font-family: Circular,Helvetica,Arial,sans-serif;
 }
 
-section.grid-container2{
+.grid-container2{
     display: grid;
     gap: 80px;
     grid-template-columns: repeat(2, 1fr);
@@ -136,39 +134,38 @@ section.grid-container2{
     padding-right: 12%;
 }
 
-h5.grid-container2-text1{
-    color: inherit;
+.grid-container2-text1{
     font-family: Circular,Helvetica,Arial,sans-serif;
     font-weight: 100;
 }
 
-h5.grid-container2-text2{
+.grid-container2-text2{
     color: #228B22; 
     font-size: 16px; 
     font-weight: 700;
     font-family: Circular,Helvetica,Arial,sans-serif;
 }
 
-footer{
+.footer{
     left: 0;
     position: absolute;
     width: 100%;
     background-color: #222326;
 }
 
-section.grid-container-footer{
+.grid-container-footer{
     display: grid;
     grid-template-rows: auto 100px;
 }
 
-section.footer-grid1{
+.footer-grid1{
     background-color: #222326;
     display: grid;
     padding-left: 35px;
     grid-template-columns: 70px auto auto auto auto auto;
 }
 
-section.footer-grid2{
+.footer-grid2{
     background-color: black;
     display: grid;
     padding-right: 45px;
@@ -177,7 +174,7 @@ section.footer-grid2{
     padding-top: 25px;
 }
 
-h1.footer-text{
+.footer-text{
     color: aliceblue;
     font-family: Circular,Helvetica,Arial,sans-serif;
     font-size: 15px;
@@ -185,7 +182,7 @@ h1.footer-text{
     font-weight: 750;
 }
 
-p.footer-buttom{
+.footer-buttom{
     color: #919496;
     font-weight: 100;
     font-family: Circular,Helvetica,Arial,sans-serif;
