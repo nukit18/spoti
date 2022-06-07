@@ -3,35 +3,117 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="src/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>React App</title>
   </head>
-  <body>
+  <body class="body">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <header class="header">
+      <section class="flex-container">
+        <img src="logo.jpg">
+        <h1 class="header-text">DISCOVER</h1>
+        <h1 class="header-text">DOCS</h1>
+        <h1 class="header-text">CONSOLE</h1>
+        <h1 class="header-text">COMMUNITY</h1>
+        <h1 class="header-text">DASHBOARD</h1>
+        <h1 class="header-text">USE CASES</h1>
+      </section>
+    </header>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <main class="main">
+      <h2 class="main-buttom-text">What`s new in our community?</h2>
+
+      <section class="grid-container">
+        <div class="grid1">
+          <h3 class="gridmenu-text-blue-h3">EVENT</h3>
+          <h4 class="gridmenu-text-blue-h4">Developer Day at Spotify, March 25th</h4>
+          <p class="gridmenu-text">Developer Day at Spotify is a three-hour online event for all developers interested in Spotify's open developer platform</p>
+        </div>
+        <div class="grid2">
+          <h3 class="gridmenu-text-white-h3">SHOWCASE</h3>
+          <h4 class="gridmenu-text-white-h4">Discover Quickly</h4>
+          <p class="gridmenu-text2">An interface for music discovery.</p>
+        </div>
+        <div class="grid3">
+          <h3 class="gridmenu-text-white-h3">BLOG</h3>
+          <h4 class="gridmenu-text-white-h4">Sunset of libspotify on May 16, 2022</h4>
+        </div>
+        <div class="grid4">
+          <h3 class="gridmenu-text-white-h3">BLOG</h3>
+          <h4 class="gridmenu-text-white-h4">The Ads API is now on Spotify for Developers</h4>
+        </div>
+      </section>
+
+      <section class="grid-container2">
+        <div>
+          <h2 class="grid-container2-text">We’d love to hear from you.</h2>
+          <h5 class="grid-container2-text1">You’re a big part of why Spotify is the best audio platform for developers. So please get in touch with your thoughts about how we can continue to improve our experience for developers.</h5>
+
+        </div>
+        <div>
+          <h2 class="grid-container2-text">Connect with the community</h2>
+          <h5 class="grid-container2-text2">SUBSRIBE TO OUR NEWSLATTER</h5>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="grid-container-footer">
+        <section class="footer-grid1">
+          <div>
+            <img src="logo2.png" class="footer-logo">
+          </div>
+          <div>
+            <h1 class="footer-text">DOCS</h1>
+            <h1 class="header-text">General</h1>
+            <h1 class="header-text">Web API</h1>
+            <h1 class="header-text">Web Playback SDK</h1>
+            <h1 class="header-text">Ads API</h1>
+            <h1 class="header-text">iOS</h1>
+            <h1 class="header-text">Android</h1>
+            <h1 class="header-text">Embeds</h1>
+            <h1 class="header-text">Commercial Hardware</h1>
+          </div>
+          <div>
+            <h1 class="footer-text">COMMUNITY</h1>
+            <h1 class="header-text">News</h1>
+            <h1 class="header-text">Forum</h1>
+            <h1 class="header-text">Showcase</h1>
+          </div>
+          <div>
+            <h1 class="footer-text">USE CASES</h1>
+            <h1 class="header-text">Mobile Apps</h1>
+            <h1 class="header-text">Hardware</h1>
+          </div>
+          <div>
+            <h1 class="footer-text">SUPPORT</h1>
+            <h1 class="footer-text">DISCOVER</h1>
+            <h1 class="footer-text">CONSOLE</h1>
+            <h1 class="footer-text">DASHBOARD</h1>
+          </div>
+          <div>
+            <h1 class="footer-text">USE CASES</h1>
+            <h1 class="footer-text">LEGAL</h1>
+            <h1 class="header-text">Terms of Service</h1>
+            <h1 class="header-text">Developer Policy</h1>
+            <h1 class="header-text">Third Party Licenses</h1>
+          </div>
+        </section>
+
+        <section class="footer-grid2">
+          <p class="footer-buttom">Legal</p>
+          <p class="footer-buttom">Cookies</p>
+          <p class="footer-buttom">© 2022 Spotify AB</p>
+        </section>
+      </section>
+    </footer>
   </body>
 </html>
